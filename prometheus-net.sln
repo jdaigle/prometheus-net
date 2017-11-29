@@ -1,12 +1,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tester", "tester\tester.csproj", "{C0212A44-AE68-4315-BC20-3B8BB40A3F98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prometheus-net", "prometheus-net\prometheus-net.csproj", "{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prometheus-net.tests", "prometheus-net.tests\prometheus-net.tests.csproj", "{AB95D899-C0F2-4652-B221-C063A8AC592D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prometheus-net.tests", "prometheus-net.tests\prometheus-net.tests.csproj", "{AB95D899-C0F2-4652-B221-C063A8AC592D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prometheus.Core", "Prometheus.Core\Prometheus.Core.csproj", "{19227872-237C-4F6D-990D-1F4FA9B6D4BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,18 +26,6 @@ Global
 		{C0212A44-AE68-4315-BC20-3B8BB40A3F98}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C0212A44-AE68-4315-BC20-3B8BB40A3F98}.Release|x64.ActiveCfg = Release|Any CPU
 		{C0212A44-AE68-4315-BC20-3B8BB40A3F98}.Release|x86.ActiveCfg = Release|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Debug|x64.Build.0 = Debug|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Debug|x86.Build.0 = Debug|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Release|x64.ActiveCfg = Release|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Release|x64.Build.0 = Release|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Release|x86.ActiveCfg = Release|Any CPU
-		{909D4E25-105D-4B6B-BCDA-7C63CF2801E7}.Release|x86.Build.0 = Release|Any CPU
 		{AB95D899-C0F2-4652-B221-C063A8AC592D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AB95D899-C0F2-4652-B221-C063A8AC592D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB95D899-C0F2-4652-B221-C063A8AC592D}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -50,8 +38,23 @@ Global
 		{AB95D899-C0F2-4652-B221-C063A8AC592D}.Release|x64.Build.0 = Release|Any CPU
 		{AB95D899-C0F2-4652-B221-C063A8AC592D}.Release|x86.ActiveCfg = Release|Any CPU
 		{AB95D899-C0F2-4652-B221-C063A8AC592D}.Release|x86.Build.0 = Release|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Debug|x64.Build.0 = Debug|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Debug|x86.Build.0 = Debug|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Release|x64.ActiveCfg = Release|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Release|x64.Build.0 = Release|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Release|x86.ActiveCfg = Release|Any CPU
+		{19227872-237C-4F6D-990D-1F4FA9B6D4BD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BE808C5-CE39-4C4C-81AC-596B3B8E4290}
 	EndGlobalSection
 EndGlobal

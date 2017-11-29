@@ -11,8 +11,4 @@
     <PackageReference Include="Shouldly" Version="2.8.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\prometheus-net\prometheus-net.csproj" />
-  </ItemGroup>
-
 </Project>
